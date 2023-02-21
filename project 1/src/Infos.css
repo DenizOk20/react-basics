@@ -1,0 +1,69 @@
+.Infos{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info > h1,h3,h4 {
+    color: #fff;
+    margin-top: 0;
+    height: 20px;
+}
+
+.info > h3 {
+    color: #F3BF99;
+}
+
+.info > h4 {
+    color: #F5F5F5;
+}
+
+.social{
+    display: flex;
+    justify-content:space-around;
+    margin:  0 20%;
+}
+
+.social > button {
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+}
+
+.mail{
+    background-color: #fff;
+    color: #374151;
+}
+
+.linkedin{
+    background-color: #5093E2;
+    color: #fff;
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+}
+
+.personal > h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.personal > p {
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 30px;
+    margin-bottom: 16px;
+    text-align: left;
+}
