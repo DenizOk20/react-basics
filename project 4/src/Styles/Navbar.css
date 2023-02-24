@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 20% 1%;
+    background-color: #F55A5A;
+    width: 685px;
+    height: 34px;
+}
+
+.earth{
+    color: #fff;
+    padding-right: 4px;
+}
+
+.head{
+    color: #fff;
+    padding-bottom: 4px;
+}
